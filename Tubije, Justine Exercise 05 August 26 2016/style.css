@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	background:#290F00
+}
+#wrapper {
+	width: 940px;
+	margin:auto;
+}
+
+#header {
+	width: 940px; height: 200px;
+	background:url(images/header.png)
+}
+#space {width: 940px; height: 70px;}
+
+#content {
+	width: 90px;
+	background:#FFFFFF;
+	padding: 20px;
+}
+
+.myBox {
+	width: 200px;
+	height:200px;
+	background:#006;
+    
+    -webkit-border-radius:10px 20px 30px 40px;
+	-moz-border-radius:10px 20px 30px 40px;
+	border-radius:10px 20px 30px 40px; 
+   
+    -webkit-box-shadow:-10px 5px 15px #FF3300;
+	-moz-box-shadow:-10px 5px 15px #FF3300;
+	box-shadow:-10px 5px 15px #FF3300;
+	
+    -webkit-opacity: 0.5;
+	-moz-opacity:0.5;
+	opacity: 0.5;
+	
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	transition:all 0.5s ease; 
+   
+}
+
+.myBox:hover {
+	border-radius:50px; 
+	box-shadow:10px 5px 15px #FFCC00;
+	opacity: 1;
+	width: 800px;
+}
+	
+
+.icons {
+	width: 100px;
+	height: 100px;
+	background:url(images/icon1.jpg) 0 0;
+	
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.icons:hover {
+	background-position: -100px 0;
+
+}
+	
+
+.icons2 { width: 100px;
+	height: 100px;
+	background:url(images/icon2.jpg) 0 0;
+	
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.icons2:hover {
+	background-position: -100px 0;
+
+}
+
+
+.icons3 { width: 100px;
+	height: 100px;
+	background:url(images/icon3.jpg) 0 0;
+	
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.icons3:hover {
+	background-position: -100px 0;
+
+}
+
+.icons4 { width: 100px;
+	height: 100px;
+	background:url(images/icon4.jpg) 0 0;
+	
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.icons4:hover {
+	background-position: -100px 0;
+
+}
+
+
+
+#soty {
+	position:absolute;
+	z-index:100;
+	top: 0;
+	right:0;
+}
+
+#nav ul{
+
+
+
+    margin:0;
+
+	padding:0;
+
+}
+
+	
+
+#nav li{
+
+
+
+    margin:0;
+
+	padding:10px 10px 0 10px;
+
+	list-style:none;
+
+	display:inline
+}
+.navlink {
+
+	color:#FFF;
+
+	font-size:21px;
+
+	text-decoration:none;
+
+}
+
+
+
+.navlink:hover {
+
+	color: #666;
+
+}
+
+.titleText {
+
+	font-size: 36px;
+
+	color:#FFF;
+}
+	#content {
+	width:900px;
+	
+	
+}
+	.Lcontent {
+	width:315px;
+	height:500px;
+	float:left;
+	
+	background:#D90003;
+	
+	
+}
+
+.Mcontent {
+	width:310px;
+	height:500px;
+	
+	float:left;
+	background:#FF8E2C;
+	
+}
+
+.Rcontent {
+	width:315px;
+	height:500px;
+	
+	float:left;
+	background:#CF8D00;
+	
+}
+
+#footer {
+    width:940px;
+	height:100px;
+	background:#CF8D00;
+}
